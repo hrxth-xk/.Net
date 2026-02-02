@@ -1,0 +1,14 @@
+@model prj2.Models.Student
+
+<h2>Add Student</h2>
+<form asp-action="AddStudent" method="post">
+    <label asp-for="Name">Name</label>
+    <input asp-for="Name" />
+
+    <label asp-for="Age">Age</label>
+    <input asp-for="Age" />
+
+    <br>
+
+    <button type="submit">Add Student</button>
+</form>
