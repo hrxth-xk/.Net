@@ -1,0 +1,26 @@
+@model IEnumerable<weeklyprj.Models.Employee>
+
+<h2>Show Employee</h2>
+
+<table border=1>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Salary</th>
+        <th>Action</th>
+    </tr>
+    @foreach(var e in Model){
+        <tr>
+            <td>@e.ID</td>
+            <td>@e.Name</td>
+            <td>@e.Salary</td>
+            <td>
+                <a asp-action="DeleteEmp"
+                asp-route-id=@e.ID>Delete</a>
+            </td>
+        </tr>
+    }
+    <br>
+    <a asp-action="AddEmployee">Add Employee</a>
+
+</table>

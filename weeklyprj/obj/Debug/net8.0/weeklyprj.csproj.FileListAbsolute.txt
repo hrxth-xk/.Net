@@ -1,0 +1,9 @@
+/workspaces/.Net/weeklyprj/obj/Debug/net8.0/rpswa.dswa.cache.json
+/workspaces/.Net/weeklyprj/obj/Debug/net8.0/weeklyprj.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/.Net/weeklyprj/obj/Debug/net8.0/weeklyprj.AssemblyInfoInputs.cache
+/workspaces/.Net/weeklyprj/obj/Debug/net8.0/weeklyprj.AssemblyInfo.cs
+/workspaces/.Net/weeklyprj/obj/Debug/net8.0/weeklyprj.csproj.CoreCompileInputs.cache
+/workspaces/.Net/weeklyprj/obj/Debug/net8.0/weeklyprj.MvcApplicationPartsAssemblyInfo.cache
+/workspaces/.Net/weeklyprj/obj/Debug/net8.0/weeklyprj.RazorAssemblyInfo.cache
+/workspaces/.Net/weeklyprj/obj/Debug/net8.0/weeklyprj.RazorAssemblyInfo.cs
+/workspaces/.Net/weeklyprj/obj/Debug/net8.0/weeklyprj.sourcelink.json
