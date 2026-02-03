@@ -1,0 +1,23 @@
+@model studentbackedpractice.Models.CourseRegistration
+
+<h1>Add Book</h1>
+
+<Form asp-action="AddCourse" method="post">
+    <div>
+        <Label asp-for="Name">Name</Label>
+        <input asp-for="Name">
+    </div>
+
+    <div>
+        <Label asp-for="Semester">Semester</Label>
+        <input asp-for="Semester">
+    </div>
+    <div>
+        <Label asp-for="Credits">Credits</Label>
+        <input asp-for="Credits">
+    </div>
+    
+    <div>
+        <button type="submit">AddCourse</button>
+    </div>
+</Form>

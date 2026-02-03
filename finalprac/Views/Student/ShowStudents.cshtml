@@ -1,0 +1,9 @@
+@model IEnumerable<finalprac.Models.Student>
+
+    @foreach(var i in Model){
+        @i.Name
+        <br/>
+        @i.Course
+
+        <a asp-action="DeleteStudents" asp-route-id="@i.Id">Delete</a>
+    }

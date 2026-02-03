@@ -1,0 +1,14 @@
+@model finalprac.Models.Student
+<form asp-action="AddStudents" method="post">
+    <div>
+        <label>Name</label>
+        <input asp-for="Name" />
+    </div>
+    <div>
+        <label>Course</label>
+        <input asp-for="Course" />
+    </div>
+    <div>
+        <input type="submit" value="Add Student" />
+    </div>
+</form>

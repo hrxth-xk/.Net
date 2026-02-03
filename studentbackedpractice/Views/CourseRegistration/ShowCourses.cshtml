@@ -1,0 +1,24 @@
+@model IEnumerable<studentbackedpractice.Models.CourseRegistration>
+
+<h2>ShowCourses</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Semster</th>
+            <th>Credits</th>
+        </tr>
+    </thead>
+    @foreach(var i in Model){
+        <tr>
+            <td>@i.Name</td>
+            <td>@i.Semester</td>
+            <td>@i.Credits</td>
+
+            <a asp-action="Delete"
+            asp-route-id="@i.RegistrationID">Delete</a>
+        </tr>
+
+    }
+</table>
