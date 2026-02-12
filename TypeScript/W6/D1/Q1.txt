@@ -1,0 +1,58 @@
+
+<div class="blog-post">
+    <h2 class="post-title">{{ post.title }}</h2>
+    <p class="post-author">Author: {{ post.author }}</p>
+    <p class="post-date">Date: {{ post.date }}</p>
+    <div class="content">
+      <p>{{ post.content }}</p>
+    </div>
+  </div>
+
+
+
+import { Component } from '@angular/core';
+
+export interface BlogPost {
+  title: string;
+  author: string;
+  date: string;
+  content: string;
+}
+
+@Component({
+  selector: 'app-blog-post',
+  templateUrl: './blog-post.component.html',
+  styleUrls: ['./blog-post.component.css']
+})
+export class BlogPostComponent {
+  post: BlogPost = {
+    title: 'Sample Blog Post',
+    author: 'Anil Doe',
+    date: '2024-04-25',
+    content: 'This is a sample blog post content.'
+  };
+}
+
+
+import { Component } from '@angular/core';
+
+export interface BlogPost {
+  title: string;
+  author: string;
+  date: string;
+  content: string;
+}
+
+@Component({
+  selector: 'app-blog-post',
+  templateUrl: './blog-post.component.html',
+  styleUrls: ['./blog-post.component.css']
+})
+export class BlogPostComponent {
+  post: BlogPost = {
+    title: 'Sample Blog Post',
+    author: 'Anil Doe',
+    date: '2024-04-25',
+    content: 'This is a sample blog post content.'
+  };
+}
